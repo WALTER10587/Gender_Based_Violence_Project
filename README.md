@@ -20,7 +20,18 @@ web development, data analysis tools,
 1. Repository Structure
 📂 GBV-Project  
 │── 📂 docs/            # Research documents and reports  
-│── 📂 src/             # Source code (if applicable)  
+│── 📂 src/             # Source code (if applicable)
+         
+      │── 📂 frontend/       # UI components (if applicable)  
+      │── 📂 backend/        # Server-side code (if applicable)  
+      │── 📂 database/       # Database schema and scripts  
+      │── 📂 models/         # Data models or business logic  
+      │── 📂 controllers/    # Handles requests and responses  
+      │── 📂 services/       # Helper functions or APIs  
+      │── 📂 utils/          # Reusable utility functions  
+      │── 📂 tests/         # Testing scripts  
+      │── 📄 app.py (or index.js, main.py)  # Main entry file  
+  
 │── 📂 assets/          # Images, videos, or other media  
 │── 📂 data/            # Datasets and analysis files  
 │── 📄 README.md        # Project overview and instructions  
